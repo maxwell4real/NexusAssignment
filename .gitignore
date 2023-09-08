@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/nexudus.iml
+.idea/vcs.xml
+browserstack.err
+README.md
+allure-report/
+allure-results/
+browserstack.err
+node_modules

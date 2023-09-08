@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(text(),'Password reset instructions have been sent to your')]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//select[@id='address.country'])[1]//option[@value='GB']"
+}

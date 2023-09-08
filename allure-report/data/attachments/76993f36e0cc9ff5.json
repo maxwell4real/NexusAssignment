@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "span[data-cse='encryptedSecurityCode'] iframe[title='Iframe for secured card data input field']"
+}

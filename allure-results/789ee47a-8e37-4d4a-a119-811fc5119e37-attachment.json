@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[contains(@class,'t-h4 basket-total ajax-mount--basket-count mini-basket-count')][normalize-space()='1']"
+}

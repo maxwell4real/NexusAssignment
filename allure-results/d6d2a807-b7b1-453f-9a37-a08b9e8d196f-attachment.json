@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "button[dataselenium=\"sign-in-submit-button\"]"
+}

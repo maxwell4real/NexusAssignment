@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='sc-bbmXgH cIhTIb']//label[2]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".search-modal__results--content-products > .product-cell .product-cell__image-wrapper"
+}

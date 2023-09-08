@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@class='btn btn-primary btn-block btn--continue-checkout continue-checkout basket-submit']"
+}
