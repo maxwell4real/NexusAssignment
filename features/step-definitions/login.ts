@@ -16,6 +16,10 @@ Then(/^I see error message displayed$/, async () => {
     await ProfilePage.verifyErrorIsDisplayed();
 });
 
-Then(/^I should see user is logged in successfully$/, async () => {
+Then(/^I verify user account detail$/, async () => {
+    await ProfilePage.verifyUserAccountDetailIsDisplayed();
+});
+
+Then(/^I log out successfully$/, async () => {
     await ProfilePage.verifyUserAccountDetailIsDisplayed();
 });

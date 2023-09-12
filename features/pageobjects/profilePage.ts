@@ -5,15 +5,29 @@ class ProfilePage{
     }
 
     public get userAccount(){
-        return $(`CSS-LOCATOR-FOR-ACCOUNT`);
+        return $(`[aria-label='Adrian Palacios']`);
     }
+
+    public get accountDetail(){
+        return $(`.euiHeaderSection--dontGrow [aria-label='Adrian Palacios']`);
+    }
+
+    public get logout(){
+        return $(`.euiHeaderSection--dontGrow [aria-label='Adrian Palacios']`);
+    }
+
 
     async verifyErrorIsDisplayed(){
         await expect(this.error).toHaveTextContaining('The email or password is incorrect');
     }
 
     async verifyUserAccountDetailIsDisplayed(){
-        await expect(this.userAccount).toHaveTextContaining('Welcome');
+        await this.userAccount.click();
+        await this.accountDetail.isDisplayed()
+    }
+
+    async logout(){
+        await this.accountDetail.click();
     }
 
 }

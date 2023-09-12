@@ -1,18 +1,15 @@
 module.exports = {
     ukUser: {
         email:`adrian+1004930927@nexudus.com`,
-        password: `P!7u4Z15MItiw_`
+        password: `4efPNc*LM3-6q0`
     },
-    usUser: {
-        email:`test_automationus3@rapha.cc`,
-        password: `Test1234`
+
+    incorrectUser: {
+        email:`mike+1444430927@nexudus.com`,
+        password: `55fPNc*LM3-6q0`
     },
-    deUser: {
-        email:`test_automationde3@rapha.cc`,
-        password: `Test1234`
-    },
-    jpUser: {
-        email:`test_automationjp3@rapha.cc`,
+    prodUser: {
+        email:`test_test@xxxxx.cc`,
         password: `Test1234`
     },
 
