@@ -10,8 +10,8 @@ Given(/^I select Hourly pass package$/, async () => {
     await BasketPage.selectHourlyPackage()
 });
 
-When(/^I enter "([^"]*)" in the product name$/, async (text) => {
-    await BasketPage.typeProductName(text);
+Given(/^I enter randomProduct in the product name field$/, async () => {
+    await BasketPage.typeRandomProductName();
 });
 
 When(/^I add hourly pass package$/, async () => {

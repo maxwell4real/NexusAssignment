@@ -1,4 +1,6 @@
-import {browser} from "@wdio/globals";
+var faker = require('faker');
+
+const randomProduct = faker.name.firstName()
 
 class BasketPage{
 
@@ -43,9 +45,9 @@ class BasketPage{
         await (await this.selectProduct).click();
     }
 
-    async typeProductName(text){
+    async typeRandomProductName(){
         await  (await this.productNameInput).waitForDisplayed();
-        await (await this.productNameInput).setValue(text)
+        await (await this.productNameInput).setValue(randomProduct)
     }
 
     async addHourlyPackage(){
@@ -58,7 +60,6 @@ class BasketPage{
 
     async confirmDeleteProduct(){
         await (await this.confirmDelete).click();
-        // await browser.pause(1000);
     }
 
     async verifyDeletingRecordText(text){
