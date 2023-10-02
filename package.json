@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "allure-commandline": "^2.18.1",
-        "chromedriver": "^115.0.1",
+        "chromedriver": "^117.0.3",
         "webdriverio": "^8.0.15"
     }
 }
